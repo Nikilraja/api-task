@@ -11,7 +11,7 @@ const Home = () => {
 
   useEffect(() => {
     dispatch(getList());
-  }, []);
+  }, [dispatch]);
 
   return (
     <div className="App">

@@ -16,7 +16,7 @@ const DetailsPage = () => {
       id: id,
     };
     dispatch(getDetails(args));
-  }, []);
+  }, [details.value.id,dispatch,id]);
   return (
     <div className="App">
       <h1>Posts Details page</h1>
